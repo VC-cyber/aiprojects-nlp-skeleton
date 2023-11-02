@@ -2,7 +2,7 @@ import torch
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 
-#i love men
+
 class StartingDataset(torch.utils.data.Dataset):
     """
     Bag of Words Dataset
